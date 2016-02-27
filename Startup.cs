@@ -47,6 +47,11 @@ namespace kz2
                 .AddDbContext<ApplicationDbContext>(options =>
                     options.UseSqlite(Configuration["Data:DefaultConnection:ConnectionString"]));
 
+            services.AddEntityFramework()
+                .AddSqlite()
+                .AddDbContext<StoreContext>(options =>
+                    options.UseSqlite(Configuration["Data:DefaultConnection:ConnectionString"]));
+
             services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
