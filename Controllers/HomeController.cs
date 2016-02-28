@@ -15,6 +15,7 @@ namespace kz2.Controllers
         public HomeController(StoreContext context)
         {
             ctx = context;
+            subjRepo = new Repo<Subject>(ctx);
         }
         public IActionResult Index()
         {
