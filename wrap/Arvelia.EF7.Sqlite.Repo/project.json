@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "dnx451": {
+      "bin": {
+        "assembly": "../../lib/dnx451/Arvelia.EF7.Sqlite.Repo.dll"
+      }
+    },
+    "dnxcore50": {
+      "bin": {
+        "assembly": "../../lib/dnxcore50/Arvelia.EF7.Sqlite.Repo.dll"
+      }
+    }
+  }
+}

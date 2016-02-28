@@ -3,6 +3,10 @@
   "version": 2,
   "targets": {
     "DNX,Version=v4.5.1": {
+      "Arvelia.EF7.Sqlite.Repo/1.0.0": {
+        "type": "project",
+        "framework": "DNX,Version=v4.5.1"
+      },
       "EntityFramework.Commands/7.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -2121,6 +2125,10 @@
       }
     },
     "DNXCore,Version=v5.0": {
+      "Arvelia.EF7.Sqlite.Repo/1.0.0": {
+        "type": "project",
+        "framework": "DNXCore,Version=v5.0"
+      },
       "EntityFramework.Commands/7.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -4838,6 +4846,10 @@
       }
     },
     "DNX,Version=v4.5.1/win7-x86": {
+      "Arvelia.EF7.Sqlite.Repo/1.0.0": {
+        "type": "project",
+        "framework": "DNX,Version=v4.5.1"
+      },
       "EntityFramework.Commands/7.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -6962,6 +6974,10 @@
       }
     },
     "DNX,Version=v4.5.1/win7-x64": {
+      "Arvelia.EF7.Sqlite.Repo/1.0.0": {
+        "type": "project",
+        "framework": "DNX,Version=v4.5.1"
+      },
       "EntityFramework.Commands/7.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -9086,6 +9102,10 @@
       }
     },
     "DNXCore,Version=v5.0/win7-x86": {
+      "Arvelia.EF7.Sqlite.Repo/1.0.0": {
+        "type": "project",
+        "framework": "DNXCore,Version=v5.0"
+      },
       "EntityFramework.Commands/7.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -12383,6 +12403,10 @@
       }
     },
     "DNXCore,Version=v5.0/win7-x64": {
+      "Arvelia.EF7.Sqlite.Repo/1.0.0": {
+        "type": "project",
+        "framework": "DNXCore,Version=v5.0"
+      },
       "EntityFramework.Commands/7.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -15681,6 +15705,10 @@
     }
   },
   "libraries": {
+    "Arvelia.EF7.Sqlite.Repo/1.0.0": {
+      "type": "project",
+      "path": "wrap/Arvelia.EF7.Sqlite.Repo/project.json"
+    },
     "EntityFramework.Commands/7.0.0-rc1-final": {
       "type": "package",
       "serviceable": true,
@@ -21581,7 +21609,11 @@
       "Microsoft.Extensions.Logging.Console >= 1.0.0-rc1-final",
       "Microsoft.Extensions.Logging.Debug >= 1.0.0-rc1-final"
     ],
-    "DNX,Version=v4.5.1": [],
-    "DNXCore,Version=v5.0": []
+    "DNX,Version=v4.5.1": [
+      "Arvelia.EF7.Sqlite.Repo >= 1.0.0-*"
+    ],
+    "DNXCore,Version=v5.0": [
+      "Arvelia.EF7.Sqlite.Repo >= 1.0.0-*"
+    ]
   }
 }

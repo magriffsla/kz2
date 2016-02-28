@@ -37,8 +37,16 @@
   },
 
   "frameworks": {
-    "dnx451": { },
-    "dnxcore50": { }
+    "dnx451": {
+      "dependencies": {
+        "Arvelia.EF7.Sqlite.Repo": "1.0.0-*"
+      }
+    },
+    "dnxcore50": {
+      "dependencies": {
+        "Arvelia.EF7.Sqlite.Repo": "1.0.0-*"
+      }
+    }
   },
 
   "exclude": [
